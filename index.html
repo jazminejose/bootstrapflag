@@ -10,6 +10,9 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 <style>
+  .flag {
+    border: 2px solid black;
+  }
   .blue {
     background-color: blue;
     color: blue;
@@ -22,6 +25,13 @@
     background-color: white;
     color: white;
   }
+
+  
+@media screen and (max-width: 500px) {
+  body {
+    width: 100%;
+  }
+}
 </style>
 </head>
 
@@ -30,7 +40,7 @@
 <br>
 <br>
 <br>
-<div class="container">
+<div class="container flag">
   <div class="row">
     <div class="col-2 blue">c</div>
     <div class="col-2 blue">c</div>
